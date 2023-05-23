@@ -22,19 +22,21 @@
         
     </header>
 
-    <main> 
-        <section class="gameBoard">
-            <div class="gameContainer">
-                
+    <main class="main"> 
+        <div class="gameTitle">
+            <h1><strong>Etch a Sketch</strong></h1>
+        </div>
+        <div class="gameContainer">
+            <div class="playerSettings">
+                <label for="colorSelector">Color Selector</label>
+                <input id="colorSelector" type="color" value="#0004ff">
+                <button id="colorBtn"class="btn">Color Mode</button>
+                <button id="rainbowBtn" class="btn">Rainbow Mode</button>
+                <button id="eraserBtn" class="btn">Eraser</button>
+                <button id="clearBtn" class="btn">Clear</button>
             </div>
-        </section>
-
-        <section class="playerStation">
-            <div class="playerContainer">
-
-            </div>
-        </section>
-
+            <div class="gameTable"></div>
+        </div>
     </main>
 
     <footer>
